@@ -35,7 +35,7 @@ export default function About() {
             <button  className="bg-gradient-to-l bg-blue-500 via-blue-800  rounded-md font-extralight text-white py-2 px-3 hover:scale-95 duration-300 hover:bg-blue-800 w-30">Contact Me</button>
             </Link>
             {/* Veiw Resume Button */}
-            <button className="border-2 border-blue-700 rounded-md font-extralight text-black py-2 px-3 hover:text-white hover:scale-95 duration-300 hover:bg-blue-800"><a href="https://drive.google.com/drive/home" target="_blank">Download CV</a></button>
+            <button className="border-2 border-blue-700 rounded-md font-extralight text-black py-2 px-3 hover:text-white hover:scale-95 duration-300 hover:bg-blue-800"><a href="https://drive.google.com/file/d/1i5Bp8ZFpVw2Vlz4_bls-Pb6IrV2PsTRo/view?usp=sharing" target="_blank">Download CV</a></button>
           </div>
         </div>
 
