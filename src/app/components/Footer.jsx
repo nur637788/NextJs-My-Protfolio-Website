@@ -30,22 +30,22 @@ function Footer() {
             <h4 className="text-lg font-semibold text-blue-500 mb-2">
               Useful Links
             </h4>
-            <a href="https://www.facebook.com/nur637788"
+            <a href="https://www.facebook.com/nur637788" target="_blank"
               className="flex items-center gap-3 hover:text-blue-500 transition">
               <FaFacebook /> Facebook
             </a>
 
-            <a href="https://www.instagram.com/nur637788/"
+            <a href="https://www.instagram.com/nur637788/" target="_blank"
               className="flex items-center gap-3 hover:text-pink-500 transition">
               <FaInstagram /> Instagram
             </a>
 
-            <a href="https://www.linkedin.com/in/nur637788/"
+            <a href="https://www.linkedin.com/in/nur637788/" target="_blank"
               className="flex items-center gap-3 hover:text-purple-500 transition">
               <FaLinkedin /> LinkedIn
             </a>
 
-            <a href="https://www.github.com/nur637788/"
+            <a href="https://www.github.com/nur637788/" target="_blank"
               className="flex items-center gap-3 hover:text-red-500 transition" >
               <FaGithub /> GitHub
             </a>
