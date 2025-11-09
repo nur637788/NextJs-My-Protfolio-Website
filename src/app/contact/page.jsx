@@ -35,12 +35,12 @@ export default function ContactPage() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    
+
     if (!formData.name || !formData.email || !formData.subject || !formData.message) {
       alert("Please fill in all fields before submitting!");
       return;
     }
-      // Thank You Massage
+    // Thank You Massage
     setSubmitted(true);
 
     // 3 Secound por input fill faka
@@ -73,7 +73,7 @@ export default function ContactPage() {
             className="bg-white p-3 rounded-md w-full border border-blue-700 hover:scale-105 duration-300"
             type="text"
             placeholder="Enter Your Name"
-            required/>
+            required />
 
           {/* Email Area */}
           <input
@@ -83,7 +83,7 @@ export default function ContactPage() {
             className="bg-white p-3 rounded-md w-full border border-blue-700 hover:scale-105 duration-300"
             type="email"
             placeholder="Enter Your Email"
-            required/>
+            required />
 
           {/* Subject Area */}
           <input
@@ -93,7 +93,7 @@ export default function ContactPage() {
             className="bg-white p-3 rounded-md w-full border border-blue-700 hover:scale-105 duration-300"
             type="text"
             placeholder="Subject"
-            required/>
+            required />
 
           {/* Text Area */}
           <textarea
@@ -119,57 +119,57 @@ export default function ContactPage() {
           )}
         </form>
 
-  
-            <div data-aos="zoom-in" className="bg-gray-300 text-black px-8 md:px-10 py-5 rounded-md shadow-xl space-y-5">
-  <h3 className="text-2xl font-medium text-center">Contact <span className="text-pink-500">Information</span></h3>
 
-  {/* WhatsApp */}
-  <div data-aos="fade-up" className="flex items-center gap-4 md:gap-10">
-    <div className="text-4xl text-green-500">
-      <FaWhatsapp />
-    </div>
-    <div className="text-md">
-      <p className="text-xl font-semibold">Phone:</p>
-      <a href="tel:+8801749535688">01749535688</a>
-    </div>
-  </div>
+        <div data-aos="zoom-in" className="bg-gray-300 text-black px-8 md:px-10 py-5 rounded-md shadow-xl space-y-5">
+          <h3 className="text-2xl font-medium text-center">Contact <span className="text-pink-500">Information</span></h3>
 
-  {/* Email */}
-  <div data-aos="fade-up" className="flex items-center gap-4 md:gap-10">
-    <div className="text-3xl text-blue-700">
-      <FaEnvelope />
-    </div>
-    <div className="text-md">
-      <p className="text-xl font-semibold">Email:</p>
-      <a href="mailto:mdnoyon631234@gmail.com">Send Mail...</a>
-    </div>
-  </div>
+          {/* WhatsApp */}
+          <div data-aos="fade-up" className="flex items-center gap-4 md:gap-10">
+            <div className="text-4xl text-green-500">
+              <FaWhatsapp />
+            </div>
+            <div className="text-md">
+              <p className="text-xl font-semibold">Phone:</p>
+              <a href="tel:+8801749535688" className="underline hover:text-blue-900">01749535688</a>
+            </div>
+          </div>
 
-  {/* Location */}
-  <div data-aos="fade-up" className="flex items-center gap-4 md:gap-10">
-    <div className="text-3xl text-red-500">
-      <FaLocationArrow />
-    </div>
-    <div className="text-md">
-      <p className="text-xl font-semibold">Location:</p>
-      <a href="https://www.google.com/maps/place/Kaderia+Tower,+Plot+%23+JA-28%2F8-B,+Bir+Uttam+AK+Khandakar+Rd,+Dhaka+1212/@23.7804799,90.4090531,17z/data=!4m6!3m5!1s0x3755c7767f7450ef:0xd735512f86ba7a8f!8m2!3d23.7805437!4d90.4103459!16s%2Fg%2F11b62w2khn?entry=ttu&g_ep=EgoyMDI1MTAwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer">
-        Bir Uttam AK Khandakar Rd, Mohakhali, Dhaka 1212
-      </a>
-    </div>
-  </div>
+          {/* Email */}
+          <div data-aos="fade-up" className="flex items-center gap-4 md:gap-10">
+            <div className="text-3xl text-blue-700">
+              <FaEnvelope />
+            </div>
+            <div className="text-md">
+              <p className="text-xl font-semibold">Email:</p>
+              <a href="mailto:mdnoyon631234@gmail.com" className="underline hover:text-blue-900">Send Mail...</a>
+            </div>
+          </div>
 
-  {/* Optional: Office Hours */}
-  <div data-aos="fade-up" className="text-center mt-4 text-md font-medium text-gray-700">
-    Office Hours: Mon - Fri, 10:00 AM - 7:00 PM
-  </div>
+          {/* Location */}
+          <div data-aos="fade-up" className="flex items-center gap-4 md:gap-10">
+            <div className="text-3xl text-red-500">
+              <FaLocationArrow />
+            </div>
+            <div className="text-md">
+              <p className="text-xl font-semibold ">Location:</p>
+              <a href="https://www.google.com/maps/place/Kaderia+Tower,+Plot+%23+JA-28%2F8-B,+Bir+Uttam+AK+Khandakar+Rd,+Dhaka+1212/@23.7804799,90.4090531,17z/data=!4m6!3m5!1s0x3755c7767f7450ef:0xd735512f86ba7a8f!8m2!3d23.7805437!4d90.4103459!16s%2Fg%2F11b62w2khn?entry=ttu&g_ep=EgoyMDI1MTAwNy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" className="underline hover:text-blue-900">
+                Bir Uttam AK Khandakar Rd, Mohakhali, Dhaka 1212
+              </a>
+            </div>
+          </div>
 
-  {/* Thank You Note */}
-  <h2 data-aos="fade-up" className="text-center text-xl font-semibold pt-10">
-    <span className="text-blue-600">Thank you</span> for visiting <span className="italic font-bold">My Portfolio.</span> 💞
-  </h2>
-</div>
+          {/* Optional: Office Hours */}
+          <div data-aos="fade-up" className="text-center mt-4 text-md font-light text-gray-700">
+            If you need address, email and phone number. feel free to contact them using the information below. Additionally, you can locate them on the map displayed on this webpage.
+          </div>
 
+          {/* Thank You Note */}
+          <h2 data-aos="fade-up" className="text-center text-xl font-semibold pt-5">
+            <span className="text-blue-600">Thank you</span> for visiting <span className="italic font-bold">My Portfolio.</span> 💞
+          </h2>
         </div>
+
+      </div>
 
     </section>
   )

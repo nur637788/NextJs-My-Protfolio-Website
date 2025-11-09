@@ -11,13 +11,15 @@ export default function Projects() {
       img: "/project/old-protfolio.png",
       tech: ["HTML", "Tailwind", "Responsive"],
       link: "https://nur637788protfolio.netlify.app/",
+      github: "https://github.com/nur637788/nur637788Protfolio"
     },
     {
       id: 2,
-      title: "Figma to React",
-      img: "/project/figma.png",
-      tech: ["React", "Tailwind", "User-Frendly"],
-      link: "https://figma-to-react-01.netlify.app/",
+      title: "Courses Website",
+      img: "/project/skillzone.png",
+      tech: ["React", "Dynamic Routing", "Tailwind"],
+      link: "https://nurskillzone.netlify.app/",
+      github: "https://github.com/nur637788/NurSkillsZone"
     },
     {
       id: 3,
@@ -25,13 +27,15 @@ export default function Projects() {
       img: "/project/ecommarce.png",
       tech: ["React", "JSON", "Tailwind"],
       link: "https://nur-expressbd.netlify.app/",
+      github: "https://github.com/nur637788/React-App"
     },
     {
       id: 4,
       title: "Furniture Shop",
-      img: "/project/skillzone.png",
+      img: "/project/home-decor.png",
       tech: ["React", "Firebase", "JSON", "Tailwind"],
       link: "https://furniture-websitebd.netlify.app/",
+      github: "https://github.com/nur637788/Furniture-Website"
     },
     {
       id: 5,
@@ -39,13 +43,15 @@ export default function Projects() {
       img: "/project/new-protfolio.png",
       tech: ["Reaact.js", "Tailwind", "Responsive"],
       link: "https://nurprotfolio.netlify.app/",
+      github: "https://github.com/nur637788/NurProtfolio-with-React"
     },
     {
       id: 6,
-      title: "Design Tools",
-      img: "/project/uiux-design.png",
-      tech: ["HTML", "CSS", "Resposive"],
-      link: "https://uiuxweb.netlify.app/",
+      title: "Madrasah Website",
+      img: "/project/madrasah.png",
+      tech: ["React.js", "Tailwind", "Firebase", "Responsive"],
+      link: "https://adataladm.netlify.app/",
+      github: "https://github.com/nur637788/NurProtfolio-with-React"
     },
     {
       id: 7,
@@ -53,21 +59,25 @@ export default function Projects() {
       img: "/project/jerin-porlour.png",
       tech: ["HTML", "Tailwind", "Responsive"],
       link: "https://jerin-purlour01.netlify.app/",
+      github: "https://github.com/nur637788/jerin-purlour"
     },
     {
       id: 8,
-      title: "Madrasah Website",
-      img: "/project/madrasah.png",
-      tech: ["React.js", "Tailwind", "AOS","Responsive"],
-      link: "https://adataladm.netlify.app/",
+      title: "API Data",
+      img: "/project/api-data.png",
+      tech: ["React", "API Intigration", "Resposive"],
+      link: "https://apidata01.netlify.app/",
+      github: "https://github.com/nur637788/API-data"
     },
     {
       id: 9,
-      title: "Courses Website",
-      img: "/project/skillzone.png",
-      tech: ["React", "Dynamic Routing", "Tailwind"],
-      link: "https://nurskillzone.netlify.app/",
+      title: "Landing-Page",
+      img: "/project/landing-page.png",
+      tech: ["Next.js", "Tailwind", "User-Frendly"],
+      link: "https://growth-landingpage.netlify.app/",
+      github: "https://github.com/nur637788/Online-Growth-Landing-Page-Next.js"
     },
+
   ];
 
   return (
@@ -97,7 +107,7 @@ export default function Projects() {
               <Image
                 src={project.img}
                 alt={project.title} width={400} height={250} loading="lazy"
-                className="object-cover w-full h-50 hover:scale-110 transition duration-300 shadow-2xl/30"
+                className="object-cover w-full h-50 hover:scale-120 transition duration-300 shadow-2xl/30"
               />
             </div>
 
@@ -114,13 +124,22 @@ export default function Projects() {
                 </span>
               </p>
 
-              <a
-                href={project.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block mt-2 bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-lg text-sm font-semibold transition">
-                🔗 Live Preview
-              </a>
+              <div className="flex gap-4 justify-between">
+                <a
+                  href={project.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-2 bg-pink-500 hover:bg-pink-600 text-white px-2 py-2 rounded-lg text-sm font-semibold transition">
+                  🔗 Live Preview
+                </a>
+                <a
+                  href={project.github}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block mt-2 border-2 hover:bg-pink-600 text-white px-2 py-1 rounded-lg text-sm font-semibold transition">
+                  🔗 GitHub
+                </a>
+              </div>
             </div>
           </div>
         ))}
