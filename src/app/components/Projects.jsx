@@ -17,33 +17,33 @@ export default function Projects() {
       id: 2,
       title: "Courses Website",
       img: "/project/skillzone.png",
-      tech: ["React", "Dynamic Routing", "Tailwind"],
+      tech: ["React", "Dynamic Routing", "Tailwind", "API"],
       link: "https://nurskillzone.netlify.app/",
       github: "https://github.com/nur637788/NurSkillsZone"
     },
     {
       id: 3,
-      title: "E-Commerce Store",
+      title: "E-Commerce",
       img: "/project/ecommarce.png",
-      tech: ["React", "JSON", "Tailwind"],
-      link: "https://nur-expressbd.netlify.app/",
-      github: "https://github.com/nur637788/React-App"
+      tech: ["React", "Tailwind", "API", "Redux-toolkit"],
+      link: "https://bdcolling1.netlify.app/",
+      github: "https://github.com/nur637788/Bdcolling-Project"
     },
     {
       id: 4,
       title: "Furniture Shop",
       img: "/project/home-decor.png",
-      tech: ["React", "Firebase", "JSON", "Tailwind"],
+      tech: ["React", "Firebase", "JSON", "Tailwind", "Redux"],
       link: "https://furniture-websitebd.netlify.app/",
       github: "https://github.com/nur637788/Furniture-Website"
     },
     {
       id: 5,
-      title: "Protfolio Blog Website",
-      img: "/project/new-protfolio.png",
-      tech: ["Reaact.js", "Tailwind", "Responsive"],
-      link: "https://nurprotfolio.netlify.app/",
-      github: "https://github.com/nur637788/NurProtfolio-with-React"
+      title: "GoodFood Website",
+      img: "/project/goodfood.png",
+      tech: ["Reaact.js", "Tailwind", "API", "Redux", "Responsive"],
+      link: "https://goodfoodbd.netlify.app/",
+      github: "https://github.com/nur637788/GoodFood-Website"
     },
     {
       id: 6,
@@ -65,7 +65,7 @@ export default function Projects() {
       id: 8,
       title: "API Data",
       img: "/project/api-data.png",
-      tech: ["React", "API Intigration", "Resposive"],
+      tech: ["React", "API Intigration", "Resposive", "Redux"],
       link: "https://apidata01.netlify.app/",
       github: "https://github.com/nur637788/API-data"
     },
