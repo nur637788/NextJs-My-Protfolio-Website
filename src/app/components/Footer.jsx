@@ -1,6 +1,11 @@
 import Link from "next/link";
 import React from "react";
-import { FaFacebook, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { CiLocationOn, CiMail } from "react-icons/ci";
+import { MdOutlinePrivacyTip } from "react-icons/md";
+import { IoIosContact } from "react-icons/io";
+import { PiMicrosoftTeamsLogo } from "react-icons/pi";
+import { FaPhone } from "react-icons/fa6";
+import { FaFacebook, FaGithub, FaInstagram, FaLinkedin, } from "react-icons/fa";
 
 function Footer() {
   return (
@@ -56,9 +61,9 @@ function Footer() {
             <h4 className="text-lg font-semibold text-blue-500 mb-2">
               Categories
             </h4>
-            <Link href='/contact'><button className="hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">Contact</button></Link>
-            <Link href='/team'><button className="hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">Team</button></Link>
-            <Link href='/privacyPolicy'><button className="hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">Privacy & Policy</button></Link>
+            <Link href='/contact'><button className="flex items-center gap-3 hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer"> <IoIosContact /> Contact</button></Link>
+            <Link href='/team'><button className="flex items-center gap-3 hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer"><PiMicrosoftTeamsLogo /> Team</button></Link>
+            <Link href='/privacyPolicy'><button className="flex items-center gap-3 hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer"><MdOutlinePrivacyTip /> Privacy & Policy</button></Link>
           </div>
 
           {/* Contact Info */}
@@ -66,16 +71,16 @@ function Footer() {
             <h4 className="text-lg font-semibold text-blue-500 mb-2">
               Connected
             </h4>
-            <a href="tel:01749535688" className=" hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">
-              📞  <span className="underline mx-2">01749535688</span>
+            <a href="tel:01749535688" className="flex items-center gap-3 hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">
+              <FaPhone /><span className="underline mx-2">01749535688</span>
             </a>
             <a
               href="mailto:mdnoyon631234@gmail.com"
-              className="hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">
-              📩  <span className="underline mx-2">Send Mail</span>
+              className="flex items-center gap-3 hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">
+              <CiMail /><span className="underline mx-2">Send Mail</span>
             </a>
-            <p className="hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">
-              📍  <span className="underline mx-2">Mohakhali, Dhaka</span>
+            <p className="flex items-center gap-3 hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">
+              <CiLocationOn /><span className="underline mx-2">Mohakhali, Dhaka</span>
             </p>
           </div>
         </div>
@@ -85,7 +90,7 @@ function Footer() {
 
         {/* Copyright */}
         <p data-aos='fade-up' className="text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} <span className="text-blue-500 font-bold">NUR.Dev</span> — All rights reserved.
+          © {new Date().getFullYear()} <span className="text-blue-500 font-bold"><a href="https://www.linkedin.com/in/nur637788/">NUR.Dev</a></span> — All rights reserved.
         </p>
       </section>
     </footer>

@@ -3,14 +3,13 @@ import Image from "next/image";
 
 export default function Projects() {
 
-
   const projects = [
     {
       id: 1,
-      title: "Portfolio Website",
-      img: "/project/old-protfolio.png",
-      tech: ["HTML", "Tailwind", "Responsive"],
-      link: "https://nur637788protfolio.netlify.app/",
+      title: "Chez Tati Website",
+      img: "/project/chez-tati.png",
+      tech: ["Redux tookit", "React", "Tailwind", "Form Validation"],
+      link: "https://cheztati.netlify.app/",
       github: "https://github.com/nur637788/nur637788Protfolio"
     },
     {
@@ -95,20 +94,17 @@ export default function Projects() {
       <div
         data-aos="fade-up"
         data-aos-delay="200"
-        className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
-      >
+        className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
         {projects.map((project) => (
           <div
             key={project.id}
-            className="bg-gray-900 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300 border border-pink-600/20 "
-          >
+            className="bg-gray-900 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300 border border-pink-600/20 ">
             {/* Image */}
             <div data-aos='zoom-in' className="overflow-hidden rounded-t-2xl">
               <Image
                 src={project.img}
                 alt={project.title} width={400} height={250} loading="lazy"
-                className="object-cover w-full h-50 hover:scale-120 transition duration-300 shadow-2xl/30"
-              />
+                className="object-cover w-full h-50 hover:scale-120 transition duration-300 shadow-2xl/30"/>
             </div>
 
             {/* Info */}

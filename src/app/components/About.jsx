@@ -35,7 +35,7 @@ export default function About() {
               <button className="bg-gradient-to-l bg-blue-500 via-blue-800  rounded-md font-extralight text-white py-2 px-3 hover:scale-95 duration-300 hover:bg-blue-800 w-30">Contact Me</button>
             </Link>
             {/* Veiw Resume Button */}
-            <button className="border-2 border-blue-700 rounded-md font-extralight text-black py-2 px-3 hover:text-white hover:scale-95 duration-300 hover:bg-blue-800"><a href="https://drive.google.com/file/d/1i5Bp8ZFpVw2Vlz4_bls-Pb6IrV2PsTRo/view?usp=sharing" target="_blank">Download CV</a></button>
+            <button className="border-2 border-blue-700 rounded-md font-extralight text-black py-2 px-3 hover:text-white hover:scale-95 duration-300 hover:bg-blue-800"><a href="https://drive.google.com/file/d/14bYb_mucl49wiiQ2bUxRLMAd3bjaUoXo/view?usp=sharing" target="_blank">Download CV</a></button>
           </div>
         </div>
 
@@ -70,7 +70,7 @@ export default function About() {
           <div data-aos="fade-up" className="bg-gray-900 p-4 rounded-xl border border-pink-600/30 shadow-md">
             <h3 className="text-2xl font-semibold mb-2 text-pink-500">Skills & Tools ⚙️</h3>
             <div className="flex flex-wrap gap-3">
-              {["HTML", "CSS", "JavaScript", "ES6+", "Animation", "React.js", "Next.js", "Tailwind", "Bootstrap", "Rersponsive", "Git & GitHub", " API Intigration", "VS Code", "Netlify", "Vercel", "Figma"].map((skill) => (
+              {["HTML5", "CSS3", "JavaScript", "ES6+", "Animation", "React.js", "Next.js", "Tailwind", "Bootstrap", "Rersponsive", "Git & GitHub", " API Intigration", "Redux-toolkit", "VS Code", "Netlify", "Vercel", "Firebase", "Figma"].map((skill) => (
                 <span
                   key={skill}
                   className="bg-pink-500/10 border border-pink-500 text-pink-300 px-3 py-1 rounded-full text-sm hover:bg-pink-500/20 transition cursor-pointer">

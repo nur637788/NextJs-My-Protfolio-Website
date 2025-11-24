@@ -141,7 +141,7 @@ export default function ContactPage() {
             </div>
             <div className="text-md">
               <p className="text-xl font-semibold">Email:</p>
-              <a href="mailto:mdnoyon631234@gmail.com" className="underline hover:text-blue-900">Send Mail...</a>
+              <a href="mailto:mdnoyon631234@gmail.com" className="underline hover:text-blue-900"> mdnoyon631234@gmail.com</a>
             </div>
           </div>
 
