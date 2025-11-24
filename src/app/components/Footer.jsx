@@ -77,7 +77,7 @@ function Footer() {
             <a
               href="mailto:mdnoyon631234@gmail.com"
               className="flex items-center gap-3 hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">
-              <CiMail /><span className="underline mx-2">Send Mail</span>
+              <CiMail /><span className="underline mx-2">Send Mail...</span>
             </a>
             <p className="flex items-center gap-3 hover:text-pink-500 hover:scale-110 duration-300 cursor-pointer">
               <CiLocationOn /><span className="underline mx-2">Mohakhali, Dhaka</span>
