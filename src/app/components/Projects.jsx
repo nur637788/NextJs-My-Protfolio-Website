@@ -132,7 +132,7 @@ export default function Projects() {
                   href={project.github}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-2 border-2 hover:bg-pink-600 text-white px-2 py-1 rounded-lg text-sm font-semibold transition">
+                  className="inline-block mt-2 border-2 hover:bg-pink-600 text-white px-2 py-2 rounded-lg text-sm font-semibold transition">
                   🔗 GitHub
                 </a>
               </div>
