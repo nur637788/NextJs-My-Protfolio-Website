@@ -6,11 +6,11 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Chez Tati Website",
+      title: "Online-Bazzar-Website",
       img: "/project/chez-tati.png",
       tech: ["Redux tookit", "React", "Tailwind", "Form Validation"],
-      link: "https://cheztati.netlify.app/",
-      github: "https://github.com/nur637788/nur637788Protfolio"
+      link: "https://sapaharbazzar.netlify.app/",
+      github: "https://github.com/nur637788/Sapahar-Online-Bazzar-Website"
     },
     {
       id: 2,
@@ -104,7 +104,7 @@ export default function Projects() {
               <Image
                 src={project.img}
                 alt={project.title} width={400} height={250} loading="lazy"
-                className="object-cover w-full h-50 hover:scale-120 transition duration-300 shadow-2xl/30"/>
+                className="object-cover w-full h-50 hover:scale-120 transition duration-300 shadow-2xl/30" />
             </div>
 
             {/* Info */}
@@ -113,7 +113,7 @@ export default function Projects() {
                 {project.title}
               </h2>
 
-              <p className="text-gray-400 text-sm">
+              <p className="text-gray-200 font-semibold text-sm">
                 Built with:{" "}
                 <span className="text-gray-300">
                   {project.tech.join(", ")}
