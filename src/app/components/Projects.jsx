@@ -113,8 +113,8 @@ export default function Projects() {
                 {project.title}
               </h2>
 
-              <p className="text-gray-200 font-semibold text-sm">
-                Built with:{" "}
+              <p className="text-gray-300  text-sm">
+                <b>Built with:</b>{" "}
                 <span className="text-gray-300">
                   {project.tech.join(", ")}
                 </span>
