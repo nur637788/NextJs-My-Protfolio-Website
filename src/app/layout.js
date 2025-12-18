@@ -59,7 +59,6 @@ export const metadata = {
     index: true,
     follow: true,
   },
-  themeColor: "#0f172a", // dark theme base color
 };
 
 
